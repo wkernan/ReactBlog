@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import { connect } from 'react-redux'; // make a react component become a container for storing state
 // import { bindActionCreators } from 'redux'; not needed anymore
 import { fetchPosts } from '../actions/index';
-import { Link } from 'react-router';
+import { Link } from 'react-router'; // allow react router to create links acting as a tags
 
 class PostsIndex extends Component {
 	componentWillMount() {
