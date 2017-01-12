@@ -5,9 +5,11 @@ import App from './components/app';
 import PostsIndex from './components/posts_index';
 import PostsNew from './components/posts_new';
 
+// below IndexRoute always us to display component to our index page
 export default (
 	<Route path="/" component={App} >
 		<IndexRoute component={PostsIndex} />
 		<Route path="posts/new" component={PostsNew} />
 	</Route>
 );
+

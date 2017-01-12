@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from 'axios'; // for making network requests
 
 export const FETCH_POSTS = 'FETCH_POSTS';
 
