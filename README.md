@@ -1,4 +1,4 @@
-# ReduxSimpleStarter
+# Boilerplate from ReduxSimpleStarter by Stephen Grider
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
